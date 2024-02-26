@@ -29,6 +29,7 @@ This project contains API tests using Axios for the Conduit application. These t
 ## How to chceck project:
 
 1. **Clone the repository**: Clone this repository to your local environment
+
    ```sh
    git clone https://github.com/PaniMaj/API-tests-using-Axios.git
    ```
@@ -36,6 +37,7 @@ This project contains API tests using Axios for the Conduit application. These t
 2. **Navigate to the project directory**: Navigate to the project directory using a terminal or command prompt.
 
 3. **Run the Conduit application**: Use Docker to run the Conduit application locally. In the project directory, execute the command:
+
    ```sh
    docker compose up --build
    ```
@@ -45,6 +47,7 @@ This project contains API tests using Axios for the Conduit application. These t
    This command will start Docker containers for the Conduit application and its database.
 
 4. **Install dependencies**: Navigate to the API tests directory and install project required dependencies by running:
+
    ```sh
    npm install
    ```
@@ -56,6 +59,7 @@ This project contains API tests using Axios for the Conduit application. These t
 
 ## Project Structure
 
+```bash
 .
 ├── api-tests/ # Directory containing API tests
 │ ├── constants
@@ -67,6 +71,7 @@ This project contains API tests using Axios for the Conduit application. These t
 │ │ └── user_profile # Folder with API tests for user profile functionality
 │ └── ...
 └── README.md # This file
+```
 
 ## Author
 
